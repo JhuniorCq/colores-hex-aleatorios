@@ -21,12 +21,7 @@ const generarColor = () => {
 }
 
 const cambiarColor = () => {
-    console.log(`Color Original: ${color.innerText}`);
-
     const colorGenerado = color.innerText = generarColor();
-
-    console.log(`Color Nuevo: ${color.innerText}`)
-
     contenedor[0].style.backgroundColor = colorGenerado;
 }
 
